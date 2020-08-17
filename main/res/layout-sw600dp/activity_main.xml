@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/Robot_Android_s"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="532dp"
+        android:layout_height="106dp"
+        android:text="@string/app_titulo"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="56sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="151dp"
+        android:layout_height="56dp"
+        android:text="@string/texto_boton"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="351dp"
+        tools:layout_editor_absoluteY="529dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="375dp"
+        android:layout_height="34dp"
+        android:text="@string/texto"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="226dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+</android.support.constraint.ConstraintLayout>

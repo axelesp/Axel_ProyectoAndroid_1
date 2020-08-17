@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CourseraHelloWord</string>
+    <string name="app_titulo">Welcome</string>
+    <string name="texto">The Text of the Aplication</string>
+    <string name="texto_boton">Enter</string>
+</resources>
